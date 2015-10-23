@@ -1,19 +1,13 @@
-h1:hover { color: magenta; }
-a:visited { text-decoration: none; }
-header {
-  text-align: center;
-  width: 75%;
-  margin: auto;
-  
+header img {
+  width: 32.9%;
 }
-article {
-  width: 60%;
-  margin: auto;
+/*more specific take precedence*/
+nav a {
+  text-decoration: line-through;
 }
-p::first-letter {
-  font-size: 1.5em;
+a {
+  text-decoration: none; 
 }
-footer {
-  border: 2px solid magenta;
-  border-radius: 25px;
-}
+/*and more recent takes precedence. important to remember.*/
+p { color: magenta; }
+p { color: orange; }

@@ -10,4 +10,4 @@ a {
 }
 /*and more recent takes precedence. important to remember.*/
 p { color: magenta; }
-p { color: orange; }
+p { color: black; }
